@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+env/
+
+# Data
+data/raw/
+data/processed/
+*.zip
+
+# Models (keep final model only)
+models/*.png
+!models/plant_disease_detector.h5
+!models/model_metrics.json
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
